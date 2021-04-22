@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    background-color: #42A4FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    color: white;
+    margin-top: 1rem;
+    font-size: 35px;
+    margin-bottom: 0.2rem;
+}
+
+.subtitle {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+}
+
+.search {
+    border: none;
+    background-color: #a0d0fd;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    padding: 0.6rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    &::placeholder {
+        color: white;
+        font-style: italic;
+        font-size: 18px;
+        text-align: center;
+    }
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.2); 
+}
